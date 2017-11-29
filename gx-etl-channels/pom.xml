@@ -7,4 +7,7 @@
   </parent>
   <artifactId>gx-etl-channels</artifactId>
   <packaging>pom</packaging>
+  <modules>
+  	<module>gx-etl-interceptor</module>
+  </modules>
 </project>

@@ -20,7 +20,30 @@
 			<groupId>com.geostax</groupId>
 			<artifactId>gx-etl-shp-source</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.geostax</groupId>
+			<artifactId>gx-etl-gxsde-sink</artifactId>
+		</dependency>
 
-
+		<dependency>
+			<groupId>com.geostax</groupId>
+			<artifactId>gx-etl-http-source</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.geostax</groupId>
+			<artifactId>gx-etl-interceptor</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.geostax</groupId>
+			<artifactId>gx-etl-cassandra-sink</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20171018</version>
+		</dependency>
 	</dependencies>
 </project>

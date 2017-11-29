@@ -11,5 +11,8 @@
   	<module>gx-etl-shp</module>
   	<module>gx-etl-http-source</module>
   	<module>gx-etl-shp-source</module>
+  	<module>gx-etl-nmsde-source</module>
+  	<module>gx-etl-gdal-source</module>
+  	<module>gx-etl-json-source</module>
   </modules>
 </project>

@@ -12,7 +12,7 @@ public class Catalog {
 
 	@PartitionKey
 	private UUID catalog_id;
-	private String namespace;
+	private String ks;
 	private String feature_schema;
 	private String name;
 	private String description;
@@ -22,11 +22,11 @@ public class Catalog {
 	private Map<String, Item> items;
 
 	public String getNamespace() {
-		return namespace;
+		return ks;
 	}
 
-	public void setNamespace(String namespace) {
-		this.namespace = namespace;
+	public void setNamespace(String ks) {
+		this.ks = ks;
 	}
 
 	public String getFeature_schema() {

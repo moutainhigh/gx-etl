@@ -11,5 +11,8 @@
   	<module>gx-etl-cassandra-sink</module>
   	<module>gx-etl-cassandra-raster-sink</module>
   	<module>gx-etl-cassandra-traj-sink</module>
+  	<module>gx-etl-nmsde-sink</module>
+  	<module>gx-etl-gxsde-sink</module>
+  	<module>gx-etl-stream-sink</module>
   </modules>
 </project>

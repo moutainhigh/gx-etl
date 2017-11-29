@@ -14,8 +14,8 @@ public class MyAgent {
 
 	public static void main(String[] args) throws Exception {
 		Application application = null;
-		File configurationFile = new File("flume-conf-shp.properties");
-		PropertiesFileConfigurationProvider configurationProvider = new PropertiesFileConfigurationProvider("a1",configurationFile);
+		File configurationFile = new File("flume-conf-cassandra.properties");
+		PropertiesFileConfigurationProvider configurationProvider = new PropertiesFileConfigurationProvider("a2",configurationFile);
 		application = new Application();
 		application.handleConfigurationEvent(configurationProvider.getConfiguration());
 		application.start();

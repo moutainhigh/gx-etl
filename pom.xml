@@ -156,9 +156,34 @@
 
 			<dependency>
 				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-cassandra-sink</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
 				<artifactId>gx-etl-event</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-gxsde-sink</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-http-source</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.geostax</groupId>
+				<artifactId>gx-etl-interceptor</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 
 			<!-- Cassandra -->
 			<dependency>
